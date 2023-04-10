@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahjong Reviews</title>
+    <link rel="stylesheet" href="./css/sakura.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1>Mahjong - Reviews</h1>
+    </header>
+    <main>
+        <div id="reviews"></div>
+        <h2>Add Reviews</h2>
+        <form id="form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required><br>
+            <label for="date">Date:</label>
+            <input type="date" name="date" id="date" required><br>
+            <label for="rating">Rating:</label>
+            <input type="number" name="rating" id="rating" min="1" max="5" required><br>
+            <label for="review-text">Review:</label><br>
+            <textarea name="review-text" id="review-text" rows="5" required></textarea><br>
+            <button type="submit">Create</button>
+        </form>
+    </main>
+    <script src="./js/data.js"></script>
+    <script src="./js/reviews.js"></script>
+</body>
+<footer>
+    <nav>
+        <h2>Explore Other Site</h2>
+        <ul>
+            <li><a href="index.html">Main</a></li>
+            <li><a href="info.html">Details information</a></li>
+            <li><a href="about.html">About myself</a></li>
+        </ul>
+    </nav>
+</footer>
+</html>
